@@ -1,13 +1,15 @@
-appVersion: v0.8.6
 name: keycloak
-version: 0.0.2
-description: Keycloak Server
+version: 0.4.0
+appVersion: 3.4.3.Final
+description: Open Source Identity and Access Management For Modern Applications and Services
 keywords:
-  - Authentication
-home: http://keycloak.org
+  - authentication
+home: http://www.keycloak.org/
+icon: http://www.keycloak.org/resources/images/keycloak_logo_480x108.png
 sources:
-  - https://keycloak.org
+  - https://github.com/jboss-dockerfiles/keycloak
 maintainers:
-  - name: Markus M. May
-    email: triplem@javafreedom.org
-engine: gotpl
+  - name: nexeck
+    email: marcel@beck.im
+  - name: unguiculus
+    email: unguiculus@gmail.com
