@@ -1,0 +1,27 @@
+hostName: sso.malaca.tk
+
+imageTag: 0.0.3
+
+keycloakUser: admin
+keycloakPass: admin123
+
+containerPort: 8080
+
+logLevel: INFO
+
+mysql:
+  databasePort: 3306
+  # databaseName: keycloak
+  # databaseUser: keycloak
+  # databasePassword: keycloak
+  mysqlRootPassword: keycloak 
+  mysqlPassword: keycloak
+  mysqlUser: keycloak
+  mysqlDatabase: keycloak
+
+  persistence:
+    path: /data/keycloak/mysql
+
+ingress:
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
